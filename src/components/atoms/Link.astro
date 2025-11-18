@@ -1,0 +1,12 @@
+---
+interface LinkProps {
+  href: string;
+  label: string;
+  className?: string;
+}
+const { href, label, className = "" } = Astro.props;
+---
+
+<a href={href} class={className}>
+  {label}
+</a>

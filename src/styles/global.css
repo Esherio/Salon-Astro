@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  tab-size: 4;
+  font-size: 62.5%;
+}
+
+/* Body default styles */
+body {
+  font-family: "Cormorant Garamond", serif;
+  line-height: inherit;
+}
+
+/* Remove default list styles */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Reset headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Make images scale */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove default button styling */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+}
+
+/* Remove paddings for fieldsets */
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+/* Links no underline by default */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  border-color: inherit;
+}
+
+/* Remove quote styling */
+blockquote,
+q {
+  quotes: none;
+}
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+}
+
+/* Hidden attribute fix */
+[hidden] {
+  display: none !important;
+}
